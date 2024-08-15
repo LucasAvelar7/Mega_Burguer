@@ -18,12 +18,33 @@ header {
 header .logo {
     max-width: 200px;
     height: auto;
+    margin-bottom: 1rem;
+}
+
+header .info {
+    margin-top: 1rem;
+}
+
+header .info h2 {
+    margin: 0.5rem 0;
+}
+
+header .info p {
+    margin: 0.2rem 0;
+}
+
+header .info .taxa {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-weight: bold;
 }
 
 main {
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
     border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .menu {
